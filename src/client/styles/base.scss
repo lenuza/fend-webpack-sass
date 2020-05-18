@@ -12,3 +12,19 @@ body {
         }
     }
 }
+
+.display-movies {
+
+    strong {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    p {
+        border: 1px dotted #333;
+        padding: 0.3em;
+        font-weight: bolder;
+    }
+
+}

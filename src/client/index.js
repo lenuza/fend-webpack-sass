@@ -1,5 +1,6 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { getMovies } from './js/getMovies'
 import './styles/base.scss'
 import './styles/footer.scss'
 import './styles/form.scss'
@@ -10,5 +11,6 @@ console.log(checkForName);
 
 export {
     checkForName,
-    handleSubmit
+    handleSubmit,
+    getMovies
 }
